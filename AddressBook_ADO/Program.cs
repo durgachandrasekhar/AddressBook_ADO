@@ -57,6 +57,10 @@ namespace AddressBookADO
                     Console.WriteLine("Invalid Input");
                     break;
             }
+        
+        repo.UpdateDetails();
+            repo.Remove();
+            repo.RetrievePersonByCityOrState();
         }
     }
 }
